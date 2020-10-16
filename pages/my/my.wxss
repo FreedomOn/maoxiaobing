@@ -1,1 +1,64 @@
 /* pages/my/my.wxss */
+.container11 {
+  background: #efefef;
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.herder {
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  border-bottom: 30rpx solid #efefef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.textright {
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.herderimg {
+  width: 200rpx;
+  height: 200rpx;
+  margin: auto;
+  border-radius: 50%;
+}
+.headertxt {
+  font-size: 32rpx;
+  /* font-weight: bold; */
+}
+
+.Recharge {
+  display: inline-block;
+  background: #1AAD19;
+  color: white;
+  padding: 5rpx;
+  margin-left: 10rpx;
+
+}
+
+.Withdrawal {
+  display: inline-block;
+  background: #1AAD19;
+  color: white;
+  padding: 5rpx;
+  margin-left: 10rpx;
+
+}
+
+.mini-btn {
+  margin-left: 10rpx;
+
+}

@@ -9,7 +9,17 @@ App({
     // 登录
     wx.login({
       success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        // 发送 res.code 到后台换取 openId, sessionKey, unionId,
+        console.log(res,'res')
+        // if(res.code){
+           //发起网络请求
+          // wx.request({
+          //   url: 'https://test.com/onLogin',
+          //   data: {
+          //     code: res.code
+          //   }
+          // })
+        // }
       }
     })
     // 获取用户信息
@@ -33,7 +43,9 @@ App({
       }
     })
   },
+
   globalData: {
-    userInfo: null
+    user:{},//后台返回用户全部信息
+    userInfo: null, //微信获取用户信息
   }
 })

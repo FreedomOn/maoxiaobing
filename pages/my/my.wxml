@@ -1,2 +1,25 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<scroll-view scroll-y="true" class="container11">
+	<view class="box">
+		<view class="herder">
+			<view class="imgleft">
+				<image src="{{avatarurl}}" class="herderimg"></image>
+			</view>
+			<view class="textright">
+				<view> <text class="headertxt">微信昵称:{{username}}</text></view>
+				<view> <text class="headertxt">账号编号:111</text></view>
+				<view class="rightbottom">
+					<text class="headertxt">积分:22222</text>
+          <!-- <text class="Recharge">充值</text>
+          <text class="Withdrawal">提现</text> -->
+					<button class="mini-btn" type="primary" size="mini" bindtap="Recharge">充值</button>
+					<button class="mini-btn" type="primary" size="mini" bindtap="Withdrawal">提现</button>
+				</view>
+
+
+
+			</view>
+		</view>
+
+	</view>
+</scroll-view>

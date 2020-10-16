@@ -4,6 +4,7 @@
     "pages/communication/communication",
     "pages/activity/activity",
     "pages/my/my"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,26 +21,26 @@
       {
         "pagePath": "pages/dynamic/dynamic",
         "text": "动态",
-        "iconPath": "/images/index.png",
-        "selectedIconPath": "/images/index1.png"
+        "iconPath": "/images/active.png",
+        "selectedIconPath": "/images/active1.png"
       },
       {
         "pagePath": "pages/communication/communication",
         "text": "通讯录",
-        "iconPath": "/images/me.png",
-        "selectedIconPath": "/images/me1.png"
+        "iconPath": "/images/phone3.png",
+        "selectedIconPath": "/images/phone2.png"
       },
       {
         "pagePath": "pages/activity/activity",
         "text": "活动",
-        "iconPath": "/images/me.png",
-        "selectedIconPath": "/images/me1.png"
+        "iconPath": "/images/huo.png",
+        "selectedIconPath": "/images/huo1.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "个人中心 ",
-        "iconPath": "/images/me.png",
-        "selectedIconPath": "/images/me1.png"
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/my1.png"
       }
     ]
   },
